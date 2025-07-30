@@ -5,12 +5,10 @@ const config = require("./config.json");
 const registerCommands = require("./utils/register-commands");
 const sendError = require("./utils/send-error");
 
+const allIntents = Object.values(GatewayIntentBits);
+
 const client = new Client({
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent
-  ]
+  intents: allIntents
 });
 
 client.slashCommands = new Collection();
