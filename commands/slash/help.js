@@ -8,7 +8,7 @@ module.exports = {
   async execute(interaction) {
     const embed = new EmbedBuilder()
       .setTitle('📖 Help')
-      .setDescription('Available commands:\n• `/ping` - Check bot latency\n• `!say` - Repeat a message\n• `/help` - Show this help menu\n• `/eval`, `/restart` - Developer only');
+      .setDescription('Available commands:\n• `/ping` - Check bot latency\n• `!say` - Repeat a message\n• `/help` - Show this help menu\n• `/eval`, `/reload` - Developer only');
     await interaction.reply({ embeds: [embed], ephemeral: false });
   }
 };
