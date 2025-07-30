@@ -9,7 +9,7 @@ A modular Discord bot using **Discord.js 14v**, designed with a clean handler st
 ```
 discord-bot-handler/
 │
-├── config.json                     # Configuration (token, prefix, etc.)
+├── config.json                    # Configuration (token, prefix, etc.)
 ├── index.js                       # Entry point
 ├── package.json                   # Dependencies and metadata
 │
