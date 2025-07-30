@@ -1,6 +1,6 @@
 # 🤖 Discord Bot Handler
 
-A modular Discord bot using **Discord.js v13**, designed with a clean handler structure for slash commands, prefix commands, and context menus.
+A modular Discord bot using **Discord.js 14v**, designed with a clean handler structure for slash commands, prefix commands, and context menus.
 
 ---
 
