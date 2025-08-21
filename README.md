@@ -69,8 +69,11 @@ npm install
 {
   "token": "YOUR_BOT_TOKEN",
   "clientId": "YOUR_CLIENT_ID",
-  "prefix": "!"
+  "prefix": "!",
+  "developers": ["YOUR_USER_ID"],
+  "errorWebhook": "YOUR_DISCORD_WEBHOOK_URL"
 }
+
 ```
 
 ### 3. Run the Bot
